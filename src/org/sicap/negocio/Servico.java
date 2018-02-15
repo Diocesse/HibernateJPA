@@ -50,8 +50,6 @@ public class Servico implements Serializable {
     ,inverseJoinColumns = @JoinColumn(name = "idPessoa"))
      private Collection<Pessoa> pessoas = new ArrayDeque<>()
             ;
-    
-
     public Date getDataHoradoServico() {
         return dataHoradoServico;
     }
